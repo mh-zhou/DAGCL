@@ -82,7 +82,7 @@ conda activate dagcl
 
 pip install torch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install keras==2.4.3 numpy==1.19.5 pandas==1.3.5 scanpy==1.8.2 scipy==1.7.3 scikit-learn==1.0.2 anndata==0.8.0
-
+```
 
 ##Data preparation
 
@@ -113,21 +113,23 @@ python scripts/train_dagcl.py \
 ##Acknowledgement
 This implementation is built on top of a strong and clean baseline framework. Our engineering pipeline and parts of the training structure reference the scCDCG codebase.
 bibtex
+```
 @article{xu2024sccdcg,
   title={scCDCG: Efficient Deep Structural Clustering for single-cell RNA-seq via Deep Cut-informed Graph Embedding},
   author={Xu, Ping and Ning, Zhiyuan and Xiao, Meng and Feng, Guihai and Li, Xin and Zhou, Yuanchun and Wang, Pengfei},
   journal={arXiv preprint arXiv:2404.06167},
   year={2024}
 }
-
+```
 ## Citation Thank you for your attention and reference, if you have any other questions, please contact us email: zhoumiehua25@mails.ucas.ac.cn . If you use this codebase in your work, please cite:
 bibtex
+```
 @article{dagcl2026,
   title={Curriculum-guided divergence scheduling improves single-cell clustering robustness},
   author={Zhou, Meihua and others},
   journal={Neural Networks},
   year={2026}
 }
-
+```
 
 
