@@ -1,4 +1,4 @@
-# DAGCL: Dynamic Attention-enhanced Graph Embedding with Curriculum Learning
+# Curriculum-guided divergence scheduling improves single-cell clustering robustness
 
 This is the source code for the paper **“Curriculum-guided divergence scheduling improves single-cell clustering robustness”**.
 
