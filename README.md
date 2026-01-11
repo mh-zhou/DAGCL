@@ -84,12 +84,12 @@ pip install torch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 --extra-index-u
 pip install keras==2.4.3 numpy==1.19.5 pandas==1.3.5 scanpy==1.8.2 scipy==1.7.3 scikit-learn==1.0.2 anndata==0.8.0
 ```
 
-##Data preparation
+## Data preparation
 
 Place processed datasets under data/. We assume a cells-by-genes matrix in X, and labels for evaluation if available.
 
-##Example structure:
-
+## Example structure:
+```
 data/
   Maayan_Mouse_Pancreas_cell_1.h5
   Human_Pancreas_Cells_2.h5ad
@@ -99,18 +99,18 @@ data/
   CITE_CMBC.h5ad
   Human_Liver_cells.h5ad
 ........
-
-##Training
+```
+## Training
 
 A typical training run:
-
+```
 python scripts/train_dagcl.py \
   --data data/Maayan_Mouse_Pancreas_cell_1.h5 \
   --epochs 200 \
   --lr 1e-3 \
   --seed 0
-
-##Acknowledgement
+```
+## Acknowledgement
 This implementation is built on top of a strong and clean baseline framework. Our engineering pipeline and parts of the training structure reference the scCDCG codebase.
 bibtex
 ```
@@ -121,7 +121,8 @@ bibtex
   year={2024}
 }
 ```
-## Citation Thank you for your attention and reference, if you have any other questions, please contact us email: zhoumiehua25@mails.ucas.ac.cn . If you use this codebase in your work, please cite:
+## Citation 
+Thank you for your attention and reference, if you have any other questions, please contact us email: zhoumiehua25@mails.ucas.ac.cn . If you use this codebase in your work, please cite:
 bibtex
 ```
 @article{dagcl2026,
