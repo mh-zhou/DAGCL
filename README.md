@@ -35,28 +35,28 @@ In DAGCL, training starts from a conservative regime that favors stable embeddin
 ## Figures (quick overview)
 
 ### Fig. 1. DAGCL architecture
-`figs/fig1.jpg` summarizes the full pipeline, including dynamic attention, divergence scheduling, and Sinkhorn-balanced assignments.
+ summarizes the full pipeline, including dynamic attention, divergence scheduling, and Sinkhorn-balanced assignments.
 
 ![Fig. 1 — DAGCL architecture](figs/fig1.jpg)
 
 ---
 
 ### Fig. 2. Curriculum dynamics and interpretability diagnostics
-`figs/fig2.jpg` visualizes DCL with progress.
+ visualizes DCL with progress.
 
 ![Fig. 2 — Curriculum dynamics](figs/fig2.jpg)
 
 ---
 
 ### Fig. 3. Clustering visualizations
-`figs/fig3.jpg` provides representative embedding and clustering visualizations across some datasets.
+provides representative embedding and clustering visualizations across some datasets.
 
 ![Fig. 3 — Clustering visualizations](figs/fig3.jpg)
 
 ---
 
 ### Fig. 4. Experimental results
-`figs/fig4.jpg` summarizes benchmark results.
+ summarizes benchmark results.
 
 ![Fig. 4 — Results summary](figs/fig4.jpg)
 
@@ -84,11 +84,11 @@ pip install torch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 --extra-index-u
 pip install keras==2.4.3 numpy==1.19.5 pandas==1.3.5 scanpy==1.8.2 scipy==1.7.3 scikit-learn==1.0.2 anndata==0.8.0
 
 
-Data preparation
+##Data preparation
 
 Place processed datasets under data/. We assume a cells-by-genes matrix in X, and labels for evaluation if available.
 
-Example structure:
+##Example structure:
 
 data/
   Maayan_Mouse_Pancreas_cell_1.h5
@@ -100,7 +100,7 @@ data/
   Human_Liver_cells.h5ad
 ........
 
-Training
+##Training
 
 A typical training run:
 
