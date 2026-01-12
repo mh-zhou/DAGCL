@@ -125,11 +125,13 @@ bibtex
 Thank you for your attention and reference, if you have any other questions, please contact us email: zhoumiehua25@mails.ucas.ac.cn . If you use this codebase in your work, please cite:
 bibtex
 ```
-@article{dagcl2026,
+@article{zhou2026curriculum,
   title={Curriculum-guided divergence scheduling improves single-cell clustering robustness},
-  author={Zhou, Meihua and others},
+  author={Zhou, Meihua and Zheng, Tianlong and Wang, Baihua and Tong, Xinyu and kin Fung, Wai and Yang, Li},
   journal={Neural Networks},
-  year={2026}
+  pages={108592},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
