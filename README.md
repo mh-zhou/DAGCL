@@ -111,16 +111,8 @@ python scripts/train_dagcl.py \
   --seed 0
 ```
 ## Acknowledgement
-This implementation is built on top of a strong and clean baseline framework. Our engineering pipeline and parts of the training structure reference the scCDCG codebase.
-bibtex
-```
-@article{xu2024sccdcg,
-  title={scCDCG: Efficient Deep Structural Clustering for single-cell RNA-seq via Deep Cut-informed Graph Embedding},
-  author={Xu, Ping and Ning, Zhiyuan and Xiao, Meng and Feng, Guihai and Li, Xin and Zhou, Yuanchun and Wang, Pengfei},
-  journal={arXiv preprint arXiv:2404.06167},
-  year={2024}
-}
-```
+This codebase is built on (https://github.com/XPgogogo/scCDCG). We sincerely thank the authors for their efforts and contributions.
+
 ## Citation 
 Thank you for your attention and reference, if you have any other questions, please contact us email: zhoumiehua25@mails.ucas.ac.cn . If you use this codebase in your work, please cite:
 bibtex
